@@ -38,7 +38,7 @@ body {
 .header-nav .nav-list {
   list-style: none;
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  flex-wrap: nowrap; /* Prevent wrapping */
   justify-content: center; /* Center navigation items */
   gap: 20px;
   align-items: center; /* Align items vertically */

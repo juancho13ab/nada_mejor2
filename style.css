@@ -45,6 +45,12 @@ body {
   text-align: center; /* Align text to the center */
 }
 
+.header-nav .nav-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .header-nav .nav-list li a {
   text-decoration: none;
   color: #333;
